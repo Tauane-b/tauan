@@ -1,32 +1,3 @@
-node_modules
-.bash_history
-# Dependências
 node_modules/
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Ambiente
-.envgit rm -r --cached .
-.env.local
-.env.*.local
-
-# Build / produção
-dist/
-build/
-.cache/
-
-# Testes
 coverage/
-*.lcov
-
-# Sistema / IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# Histórico do bash
-.bash_history
+dist/       
