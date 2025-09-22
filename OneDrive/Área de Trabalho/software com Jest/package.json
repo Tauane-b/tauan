@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "calcular-valor-pedido.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "nodemon --exec \"npm test\" --ext js"
   },
   "author": "",
   "license": "ISC",
